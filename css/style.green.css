@@ -3611,7 +3611,7 @@ a.list-group-item.active > .badge,
 
 
 
-.left, .right {
+.left1, .right1 {
   position: absolute;
   left: 0;
   height: 100%;
@@ -3620,12 +3620,12 @@ a.list-group-item.active > .badge,
   background: none;
 }
 
-.right {
+.right1 {
   left: 50%;
   overflow: hidden;
 }
 
-.right img {
+.right1 img {
   height: auto;
   width: 120%;
 }
@@ -3768,14 +3768,14 @@ a.list-group-item.active > .badge,
 
 @media only screen and (max-width: 767px) {
   
-    .left, .right {
+    .left1, .right1 {
       position: relative;
       left: 0;
       height: auto;
       width: 100%;
     }
   
-    .right img {
+    .right1 img {
       height: auto;
       width: 100%;
     }
