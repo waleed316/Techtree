@@ -595,7 +595,7 @@ fieldset[disabled] .btn-template-main.active {
 }
 .btn-template-transparent-primary {
   color: #ffffff;
-  background-color: transparent;
+  background-color: #16455f;
   border-color: #ffffff;
 }
 .btn-template-transparent-primary:hover,
@@ -638,9 +638,9 @@ fieldset[disabled] .btn-template-transparent-primary.active {
 .btn-template-transparent-primary:focus,
 .btn-template-transparent-primary:active,
 .btn-template-transparent-primary.active {
-  background: #16455f;
-  color: #fff;
-  border-color: #fff;
+  background: #fff;
+  color: #16455f;
+  border-color: #16455f;
 }
 .btn-template-transparent-black {
   color: #ffffff;
