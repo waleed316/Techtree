@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function($){
 	var cartWrapper = $('.cd-cart-container');
 	//product id - you don't need a counter in your real project but you can use your real product id
