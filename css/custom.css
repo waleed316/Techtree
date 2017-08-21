@@ -263,9 +263,28 @@ and (max-device-width : 480px) {
 		font-size: 15px;
 	}
 
+	.nest-io {
+		margin-top: 15px;
+	}
+
 }
 
 
+
+
+@media only screen
+and (min-device-width : 600px  )
+and (max-device-width : 736px ){
+	.main-logo
+	{
+		height: 130px;
+	
+	}
+
+	.nest-io {
+		margin-top: 15px;
+	}
+}
 
 
 
@@ -273,12 +292,14 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
+	
 /* STYLES GO HERE */
 }
  
 /* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
+
 /* STYLES GO HERE */
 }
  
@@ -286,6 +307,11 @@ and (max-width : 320px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
+	.main-logo
+	{
+		height: 130px;
+	
+	}
 /* STYLES GO HERE */
 }
  
@@ -294,6 +320,11 @@ and (max-device-width : 1024px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
+	.main-logo
+	{
+		height: 130px;
+	
+	}
 /* STYLES GO HERE */
 }
  
@@ -338,6 +369,7 @@ and (min-width : 1824px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
 
+
 	
 }
  
@@ -346,6 +378,11 @@ and (max-device-width : 568px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : landscape) {
+	.main-logo
+	{
+		height: 100px;
+	
+	}
 /* STYLES GO HERE */
 }
  
