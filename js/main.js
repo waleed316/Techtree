@@ -168,4 +168,15 @@ jQuery(document).ready(function($){
 	function updateCartTotal(price, bool) {
 		bool ? cartTotal.text( (Number(cartTotal.text()) + Number(price)).toFixed(2) )  : cartTotal.text( (Number(cartTotal.text()) - Number(price)).toFixed(2) );
 	}
+
+	//Preloader
+	$(window).on('load',function() {
+        preloaderFadeOutTime = 500;
+        function hidePreloader() {
+        var preloader = $('.spinner-wrapper');
+        preloader.fadeOut(preloaderFadeOutTime);
+        }
+        hidePreloader();
+    });
+
 });
