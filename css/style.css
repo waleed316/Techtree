@@ -793,6 +793,15 @@ Main Components
 }
 
 
+.name-picture p{
+  margin-top: 20px!important;
+}
+
+
+
+
+
+
 /* loader */
 
 .sk-cube-grid {
@@ -869,3 +878,5 @@ Main Components
   background-color: #16455f;
   z-index: 999999;
   }
+
+
